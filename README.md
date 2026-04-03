@@ -17,6 +17,11 @@ Wchodzimy w `Connectivity` ---> `Trunks` i uzupełniamy jak na obrazkach
 
 ![1.png](images/pl/1.png)
 ![2.png](images/pl/2.png)
+### Notatka 
+Jeżeli korzystasz z Funboxa a nie z własnego routera, telefon nie będzie działać, lub będzie działać do czasu do kiedy Orange nie wypuści nowej konfiguracji do Funboxa. W takim przypadku w "Auth username" należy wpisać numer telefonu w formacie `48xxxxxxxxxa@neofon.tp.pl` (z dopiskiem a na końcu).
+
+Jeśli dalej nie działa to należy wejść w zakładkę "Advanced" i wkleić w pole "AOR Contact" wartość w formacie `sip:48xxxxxxxxxa@neofon.tp.pl:5060` (numer telefonu z dopiskiem "a"), i w pole "Match (Permit)" wartość `83.0.8.0/24`
+
 ![3.png](images/pl/3.png)
 ![4.png](images/pl/4.png)
 
